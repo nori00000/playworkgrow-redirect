@@ -1,0 +1,21 @@
+# OMC 세션 상태 — 로컬 경로·세션 ID가 들어 있다. 공개 금지.
+.omc/
+
+# macOS
+.DS_Store
+
+# 로컬 실험물
+probe.html
+p2.html
+*.local.js
+
+# 도구 로컬 상태 (Serena MCP가 세션마다 재생성)
+.serena/
+
+# Playwright local artifacts
+node_modules/
+playwright-report/
+test-results/
+
+# OMX session state
+.omx/
